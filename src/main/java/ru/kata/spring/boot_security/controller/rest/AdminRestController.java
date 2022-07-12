@@ -1,4 +1,4 @@
-package ru.kata.spring.boot_security.rest;
+package ru.kata.spring.boot_security.controller.rest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
