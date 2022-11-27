@@ -23,4 +23,9 @@ public class RoleServiceImp implements RoleService {
     public List<Role> findAll() {
         return roleRepository.findAll();
     }
+
+    @Override
+    public void addRole(Role role) {
+        roleRepository.save(role);
+    }
 }
